@@ -1,8 +1,5 @@
 [class*='col-']{
-  float: left;
-  background-color:red;
-  height:300px;
-  border:1px solid black;
+  float: left; 
 }
 .container .row.m1 [class*='col-']{
   background-color:gray;
@@ -13,5 +10,22 @@
 
 }
 .container.sfondo{
-  background-color:gray; 
+  background-color:gray;
+}
+.col-lg-6.col-md-6.col-xs-12 .row img{
+  height:200px;
+  width:250px;
+  margin:20% 0 5% 0;
+
+}
+.col-lg-6.col-md-6.col-xs-12 .row{
+  text-align: center;
+}
+.col-lg-6.col-md-6.col-xs-12 .row h2{
+  margin:0 5% 5% 5%;
+  font-size:25px;
+}
+.col-lg-6.col-md-6.col-xs-12 .row p{
+  margin:0 5% 5% 5%;
+  font-size:17px;
 }
