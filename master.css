@@ -1,0 +1,17 @@
+[class*='col-']{
+  float: left;
+  background-color:red;
+  height:300px;
+  border:1px solid black;
+}
+.container .row.m1 [class*='col-']{
+  background-color:gray;
+
+}
+.container .row.m2 [class*='col-']{
+  background-color:green;;
+
+}
+.container.sfondo{
+  background-color:gray; 
+}
