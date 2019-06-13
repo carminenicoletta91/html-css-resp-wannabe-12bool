@@ -1,12 +1,9 @@
 [class*='col-']{
   float: left;
 }
-.container .row.m2 [class*='col-']{
-  background-color:green;;
 
-}
 .container.sfondo{
-  background-color:gray;
+  background-color:rgb(245,245,245);
 }
 .col-lg-6.col-md-6.col-xs-12 .row img{
   height:200px;
@@ -42,4 +39,26 @@
 .col-lg-4.col-md-12.col-xs-12 .row p{
   margin:0 5% 5% 5%;
   font-size:17px;
+}
+/*setting blocco perchè cademo*/
+.col-lg-8.col-lg-offset-2.col-lg-offset-2.col-md-12.col-xs-12 .row {
+  text-align: center;
+}
+.col-lg-8.col-lg-offset-2.col-lg-offset-2.col-md-12.col-xs-12 .row img{
+  height: 200px;
+  width:  200px;
+  margin:5% 0 5% 0;
+}
+.col-lg-8.col-lg-offset-2.col-lg-offset-2.col-md-12.col-xs-12 .row h3{
+  margin:0 5% 5% 5%;
+  font-size:25px;
+}
+.col-lg-8.col-lg-offset-2.col-lg-offset-2.col-md-12.col-xs-12 .row p{
+  margin:0 5% 5% 5%;
+  font-size:17px;
+}
+#background{
+  border-radius:50% ;
+  background-color:#428bca;
+  padding:30px;
 }
